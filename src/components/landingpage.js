@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import { Grid, Cell } from 'react-mdl';
-import { Image, Grid } from 'semantic-ui-react'
+import { Image, Grid, Button, Icon } from 'semantic-ui-react'
 
 
 class Landing extends Component {
@@ -23,7 +23,7 @@ class Landing extends Component {
 
             <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB
+          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB|
              Vue | Vuetify | API | C# | Git </p>
 
         <div className="social-links">
@@ -42,11 +42,12 @@ class Landing extends Component {
           <a href="www.youtube.com" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-youtube-square" aria-hidden="true" />
           </a>
-
         </div>
             </div>
             </Grid.Column>
         </Grid>
+        <div>
+        </div>
       </div>
     )
   }
